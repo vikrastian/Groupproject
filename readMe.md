@@ -1,5 +1,16 @@
 ### Welcome to the repository for our Group project ###
 
+### HOW-TO Pull repository to your local computer ###
+1. Åpne CMD
+2. Navigate to the folder you want to download/clone the GitHUb repository to.
+3. Type "cd folder_name" to enter a folder /  Type "mkdir" to make a new folder / Type "cd.." to go out of a folder.
+4. When you are in the folder you want to download/clone the repository to:
+git clone https://github.com/vikrastian/Groupproject.git
+5. After the clone you can type "cd Groupproject" to enter our repository.
+6. Type "code ." and the repository will open in GitHub.
+7. From here we will work on GitHUb - Lets have a status meeting and discuss how we go from here with branches etc.
+
+
 ### css - folder ###
 - Put your stylesheet here.
 - When you link it add ./css/ before the filename.
