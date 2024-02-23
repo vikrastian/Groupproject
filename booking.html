@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booking Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+
+        <label for="plan">Workshop</label>
+        <select id="Workshops" name="plan" placeholder="Select Workshop">
+            <option value="" disabled selected hidden>Select a workshop</option>
+            <option value="Fingerpainting">Fingerpainting</option>
+            <option value="Drawing">Drawing</option>
+            <option value="Mosaic">Mosaic Art</option>
+            <option value="Watercolor">Watercolor Paint</option>
+            <option value="Canvas">Canvas Paint</option>
+        </select>
+
+        <label for="datepicker">Select a Date</label>
+    <div class="dateforms">
+        <input type="date" id="datepicker" name="datepicker" placeholder="Select a date">
+
+        <div class="popup" id="datepickerPopup">
+            <div class="popup-content">
+                <iframe src="https://calendar.google.com/calendar/embed?src=731bd8e386cda0d08fe6c3d541c007b2a5d0f6bf2310969f5baff8481c861457%40group.calendar.google.com&ctz=Europe%2FOslo" style="border: 0" width="400" height="300" frameborder="0" scrolling="no"></iframe>
+                <button class="close-btn" id="closeDatepicker">&times;</button>
+            </div>
+        </div>
+
+        <button type="button" id="datepickerBtn">Check Availability</button>
+    </div>
+
+        <label for="more-details">More Details:</label>
+        <textarea id="more-details" name="more-details" rows="4" placeholder="Enter additional details you would like us to know"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
