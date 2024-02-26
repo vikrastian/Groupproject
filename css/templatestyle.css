@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #A9C5FF;
+    font-size: 16px;
+}
+.nav-bar{
+    background-color: #5F79E2;
+    color: #fff;
+    height: 70px;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700
+}
+a:hover{
+    color: #a1c3ff;
+}
+.nav-bar .logo{
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 0 4px 4px #FF9D8A;
+    color: #fff;
+}
+.nav-bar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li{
+    margin-left: 20px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-area{
+    background-image: url(/Groupproject/img/headerimage.jpg);
+    background-size: cover;
+    background-position: center center;
+    top: 70px;
+    height: 100vh;
+    width: 100%;    
+}
+
+.banner-area:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #130f40;
+    opacity: .7;
+    z-index: -1;
+}
+
+.banner-area h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+}
+
+h6 {
+    text-shadow: 0 4px 4px #FF9D8A;
+    font-size: 40px;
+    padding-top: 25px;
+}
+
+.footerlist>li {
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footerlist {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+.footerlist a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footerlist a:hover {
+    color: #a1c3ff;
+}
+
+footer {
+    background-color: #5F79E2;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+
+/* Images provided by unsplash.com */
