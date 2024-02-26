@@ -58,7 +58,7 @@ a:hover{
 }
 
 .banner-area{
-    background-image: url(/Groupproject/img//headerimage.jpg);
+    background-image: url(/img/headerimage.jpg);
     background-size: cover;
     background-position: center center;
     top: 70px;
