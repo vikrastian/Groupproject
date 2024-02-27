@@ -125,8 +125,8 @@ footer p {
         justify-content: center;
         align-items: center;
         margin-bottom: 20px;
-        /* margin-top: 70px; */
         position: relative;
+
 }
 
 .bg-img img {
@@ -137,5 +137,62 @@ left: 0;
  object-fit: contain;
  height:auto;
 
+}
+
+.info-box{
+    position: absolute;  
+    top: 60%;
+    width: 50%;
+    left: 25%;
+    padding: 30px 30px;
+    border-radius: 20px;
+    font: inherit;
+    color: #fff;
+    line-height: 1.6;
+    /* width: 100%; */
+
+    background-color: rgba(95, 121, 226, 0.9);
+    /* display: inline-block; */
+    transition: background-color 1s linear;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
+
+.heading-info-box{
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.info-box:hover{
+    background-color: rgba(95, 121, 226, 1);
+}
+
+/* @media screen and (max-width: 613px) {
+    .info-box {
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
+
+    }
+  } */
+  
+  /* @media screen and (max-width: 613px) {
+    .info-box {
+        min-width: 80%;
+        top: 50%;
+        left:5%;
+        padding: 10px;
+        margin: 20px;
+    }
+    }
+
+    .bg-img{
+        width: 100%; /* or any specific width */
+        height: 60vh; /* or any specific height */
+        overflow: hidden; /* Ensures no part of the image spills out of the container */
+        display: flex; /* Centers the image within the container */
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        position: relative;
+
+} */
