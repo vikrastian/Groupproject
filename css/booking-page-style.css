@@ -285,3 +285,18 @@ footer p {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
+
+@media(width<1200px) {
+    .container{ gap: 3rem;
+    }
+}
+
+@media(width<900px) {
+    .container { grid-template-columns: repeat (1, 1fr);
+    }
+}
+
+@media( width<750px) { 
+    .container_left { grid-template-columns: repeat ( 1, 1fr);
+    }
+}

@@ -239,6 +239,44 @@ footer p {
     margin-top: 10px;
 }
 
+.aligment {
+    margin: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.heading-card-section h1 {
+    text-shadow: 0 4px 4px #FF9D8A;
+    font-size: 40px;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #5F79E2;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.aligment2 {
+    margin: 50px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+.heading-card-section2 h1 {
+    text-shadow: 0 4px 4px #FF9D8A;
+    font-size: 40px;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #5F79E2;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
 @media(width<1200px) {
     .container{ gap: 3rem;
     }
