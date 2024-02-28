@@ -82,8 +82,10 @@ h3{
   
 
 /* Media query for skjermer smalere enn 600px */
-@media (max-width: 600px) {
+
+/* @media (max-width: 600px) {
     .container {
-        flex-direction: column; /* Stabler elementene vertikalt */
+        flex-direction: column;
     }
-}
+} 
+*/
