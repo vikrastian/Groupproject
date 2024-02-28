@@ -125,9 +125,9 @@ form button{
     background: white;
     border: 1px solid #5c5c5c;
     color:#5c5c5c ;
-    width: 13%;
+    /* min-width: 13%; */
     font-size: 20px;
-    padding: 5px 0;
+    padding: 5px 10px;
     font-weight: 800;
     cursor: pointer;
     border-radius: 10px;
@@ -277,7 +277,7 @@ footer p {
 
 }
 
-@media(width<1200px) {
+/* @media(width<1200px) { 
     .container{ gap: 3rem;
     }
 }
@@ -290,4 +290,61 @@ footer p {
 @media( width<750px) { 
     .container_left { grid-template-columns: repeat ( 1, 1fr);
     }
+}*/
+
+@media only screen and (max-width: 757px) {
+    .heading-card-section2 h1{
+      font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .heading-card-section2 h1{
+      font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    form input{ 
+        width: 60%;
+    }
+    form textarea{ 
+        width: 60%; 
+    }
+    .card{
+        width: 85%;
+    }
+}
+
+@media (max-width: 459px) {
+    input::placeholder, textarea::placeholder, form button {
+      font-size: 16px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+/* MEDIA QUERIES */
+
+        /* MEDIA QUERY FOR HEADER */
+@media only screen and (max-width: 417px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .nav-bar {
+        height: auto;
+    }
+
+    .nav-bar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+        flex-wrap:nowrap;
+    }
+
+    .nav-bar ul li {
+        margin: 5px 0;
+    }
+
 }

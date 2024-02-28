@@ -118,19 +118,30 @@ footer p {
     margin-top: 10px;
 }
 
-@media(width<1200px) {
-    .container{ gap: 3rem;
-    }
-}
+/* MEDIA QUERIES */
 
-@media(width<900px) {
-    .container { grid-template-columns: repeat (1, 1fr);
-    }
-}
-
-@media( width<750px) { 
-    .container_left { grid-template-columns: repeat ( 1, 1fr);
-    }
-}
+        /* MEDIA QUERY FOR HEADER */
+        @media only screen and (max-width: 417px) {
+            .container {
+                padding: 0 10px;
+            }
+        
+            .nav-bar {
+                height: auto;
+            }
+        
+            .nav-bar ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px 0;
+                flex-wrap:nowrap;
+            }
+        
+            .nav-bar ul li {
+                margin: 5px 0;
+            }
+        
+        }
 
 /* Images provided by unsplash.com */
