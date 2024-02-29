@@ -317,7 +317,7 @@ span i { color: #da0852;}
                     }}
 
         /* MEDIA QUERY FOR HEADER */
-@media only screen and (max-width: 417px) {
+@media only screen and (max-width: 550px) {
     .container {
         padding: 0 10px;
     }
