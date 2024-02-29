@@ -172,7 +172,7 @@ textarea {
     background-color: #FF9D8A; 
 }
 
-@media only screen and (max-width: 417px) {
+@media only screen and (max-width: 550px) {
     .container {
         padding: 0 10px;
     }
