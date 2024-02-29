@@ -90,7 +90,6 @@ h6 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    list-style-type: none;
 }
 
 .footerlist a {
@@ -165,8 +164,97 @@ left: 0;
     background-color: rgba(95, 121, 226, 1);
 }
 
-  
- 
+.card img {
+    max-width: 75px;
+    border-radius: 100%;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px 0;
+    color:rgb(5, 5, 224);
+    font-weight: 800;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 0;
+    color:rgb(5, 5, 224);
+    font-weight: 800;
+}
+
+.card{ 
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: #5F79E2;
+    box-shadow : 5px 5px 20px rgba(0, 0, 0, 0.2);
+    cursor:pointer;
+    width: 60%;
+    margin: 30px auto;
+    justify-content: center;
+}
+.card_content{
+    display: flex;
+    gap: 1rem;
+    padding: 10px;
+}
+span i { color: #da0852;}
+
+.card_details p{
+    font-style: italic;
+    color: #fff;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.card_details h4{
+    text-align: left;
+    color: #fff;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.aligment {
+    margin: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.heading-card-section h1 {
+    text-shadow: 0 4px 4px #FF9D8A;
+    font-size: 40px;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #5F79E2;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.aligment2 {
+    margin: 50px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+.heading-card-section2 h1 {
+    text-shadow: 0 4px 4px #FF9D8A;
+    font-size: 40px;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #5F79E2;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
 /* MEDIA QUERIES */
 
         /* MEDIA QUERY FOR HEADER */
@@ -191,4 +279,22 @@ left: 0;
         margin: 5px 0;
     }
 
+}
+
+@media only screen and (max-width: 757px) {
+    .heading-card-section2 h1{
+      font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .heading-card-section2 h1{
+      font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 85%;
+    }
 }
